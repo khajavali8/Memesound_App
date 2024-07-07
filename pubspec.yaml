@@ -1,0 +1,49 @@
+name: meme_voice_app
+description: A Flutter app for playing meme voices using text-to-speech.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_tts: ^3.8.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/1.png
+    - assets/images/2.png
+    - assets/images/2.smile.png
+    - assets/images/angry.png
+    - assets/images/angry1.png
+    - assets/images/angry2.png
+    - assets/images/angry3.png
+    - assets/images/cat.png
+    - assets/images/cat1.png
+    - assets/images/cat2.png
+    - assets/images/cat3.png
+    - assets/images/cat4.png
+    - assets/images/hero.png
+    - assets/images/hero1.png
+    - assets/images/hero2.png
+    - assets/images/hero3.png
+    - assets/images/sad.png
+    - assets/images/sad1.png
+    - assets/images/boring.png
+    - assets/images/boy4.png 
+    - assets/images/boy1.png
+    - assets/images/boy2.png
+    - assets/images/boy3.png
+    - assets/images/successkid.png
+    - assets/images/boy.png
+
